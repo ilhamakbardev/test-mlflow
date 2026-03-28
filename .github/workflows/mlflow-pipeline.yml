@@ -10,6 +10,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+
 env:
   CSV_URL: "MLproject/train_pca.csv"
 
